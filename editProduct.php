@@ -24,10 +24,10 @@ if($_POST) {
 
 	if($connect->query($sql) === TRUE) {
 		$valid['success'] = true;
-		$valid['messages'] = "Successfully Update";	
+		$valid['messages'] = "Actualizado correctamente";	
 	} else {
 		$valid['success'] = false;
-		$valid['messages'] = "Error while updating product info";
+		$valid['messages'] = "Error al actualizar producto";
 	}
 
 } // /$_POST
