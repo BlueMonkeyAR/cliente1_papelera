@@ -78,7 +78,7 @@
 	        	<label for="productName" class="col-sm-3 control-label">Nombre del Producto: </label>
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
-				      <input type="text" class="form-control" id="productName" placeholder="Product Name" name="productName" autocomplete="off">
+				      <input type="text" class="form-control" id="productName" placeholder="Nombre del Producto" name="productName" autocomplete="off">
 				    </div>
 	        </div> <!-- /form-group-->	    
 
@@ -86,7 +86,7 @@
 	        	<label for="quantity" class="col-sm-3 control-label">Cantidad: </label>
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
-				      <input type="text" class="form-control" id="quantity" placeholder="Quantity" name="quantity" autocomplete="off">
+				      <input type="text" class="form-control" id="quantity" placeholder="Cantidad" name="quantity" autocomplete="off">
 				    </div>
 	        </div> <!-- /form-group-->	  
 	         <div class="form-group">
@@ -101,7 +101,7 @@
 	        	<label for="rate" class="col-sm-3 control-label">Precio: </label>
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
-				      <input type="text" class="form-control" id="rate" placeholder="Rate" name="rate" autocomplete="off">
+				      <input type="text" class="form-control" id="rate" placeholder="Precio" name="rate" autocomplete="off">
 				    </div>
 	        </div> <!-- /form-group-->	     	        
 
@@ -110,7 +110,7 @@
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
 				      <select class="form-control" id="brandName" name="brandName">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">~~SELECCIONAR~~</option>
 				      	<?php 
 				      	$sql = "SELECT brand_id, brand_name, brand_active, brand_status FROM brands WHERE brand_status = 1 AND brand_active = 1";
 								$result = $connect->query($sql);
@@ -138,7 +138,7 @@
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
 				      <select type="text" class="form-control" id="categoryName" placeholder="Product Name" name="categoryName" >
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">~~SELECCIONAR~~</option>
 				      	<?php 
 				      	$sql = "SELECT categories_id, categories_name, categories_active, categories_status FROM categories WHERE categories_status = 1 AND categories_active = 1";
 								$result = $connect->query($sql);
@@ -157,9 +157,9 @@
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
 				      <select class="form-control" id="productStatus" name="productStatus">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">~~SELECCIONAR~~</option>
 				      	<option value="1">Disponible</option>
-				      	<option value="2">No Disponibl</option>
+				      	<option value="2">No Disponible</option>
 				      </select>
 				    </div>
 	        </div> <!-- /form-group-->	         	        
@@ -285,7 +285,7 @@
 			        	<label class="col-sm-1 control-label">: </label>
 						    <div class="col-sm-8">
 						      <select class="form-control" id="editBrandName" name="editBrandName">
-						      	<option value="">~~SELECT~~</option>
+						      	<option value="">~~SELECCIONAR~~</option>
 						      	<?php 
 						      	$sql = "SELECT brand_id, brand_name, brand_active, brand_status FROM brands WHERE brand_status = 1 AND brand_active = 1";
 										$result = $connect->query($sql);
@@ -332,7 +332,7 @@
 			        	<label class="col-sm-1 control-label">: </label>
 						    <div class="col-sm-8">
 						      <select class="form-control" id="editProductStatus" name="editProductStatus">
-						      	<option value="">~~SELECT~~</option>
+						      	<option value="">~~SELECCIONAR~~</option>
 						      	<option value="1">Disponible</option>
 						      	<option value="2">No Disponible</option>
 						      </select>
