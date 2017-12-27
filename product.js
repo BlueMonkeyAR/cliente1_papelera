@@ -24,7 +24,8 @@ $(document).ready(function() {
 		    maxFileSize: 2500,
 		    showClose: false,
 		    showCaption: false,
-		    browseLabel: '',
+		    browseLabel: 'Buscar_archivo',
+		    //no me toma los espacios en "browseLabel - revisar como poner ascii"
 		    removeLabel: '',
 		    browseIcon: '<i class="glyphicon glyphicon-folder-open"></i>',
 		    removeIcon: '<i class="glyphicon glyphicon-remove"></i>',
