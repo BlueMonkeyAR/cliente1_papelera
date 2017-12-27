@@ -92,7 +92,7 @@
     	<form class="form-horizontal" id="editCategoriesForm" action="php_action/editCategories.php" method="POST">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <h4 class="modal-title"><i class="fa fa-edit"></i> Editar Marca</h4>
+	        <h4 class="modal-title"><i class="fa fa-edit"></i> Editar Categoría</h4>
 	      </div>
 	      <div class="modal-body">
 
@@ -148,10 +148,10 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title"><i class="glyphicon glyphicon-trash"></i> Remover Marca</h4>
+        <h4 class="modal-title"><i class="glyphicon glyphicon-trash"></i> Remover Categoría</h4>
       </div>
       <div class="modal-body">
-        <p>Estas Seguro que quieres remover esta marca?</p>
+        <p>Estas Seguro que quieres remover esta categoría?</p>
       </div>
       <div class="modal-footer removeCategoriesFooter">
         <button type="button" class="btn btn-default" data-dismiss="modal"> <i class="glyphicon glyphicon-remove-sign"></i> Cerrar</button>
